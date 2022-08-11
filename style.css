@@ -6,17 +6,31 @@ body{
 }
 .top{
     background: #1F2937;
+    margin: auto;
 }
 .navbar{
     display: flex;
     justify-content: space-between;
+    margin: auto;
+    width: 80%;
+    padding: 20px 0px;
 }
 .left-navbar{
     font-size: 24px;
     color: #f9faf8;
+    align-self: center;
+}
+.right-navbar{
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: space-around;
 }
 .header{
     display: flex;
+    margin: auto;
+    width: 80%;
+    padding: 100px 0px;
 }
 .header-text h1{
     font-size: 48px;
@@ -25,24 +39,113 @@ body{
 .header-text p{
     font-size: 18px;
     color: #e5e7eb;
+    margin-right: 20px;
 }
 .header-image img{
-    width: 200px;
+    width: 500px;
+}
+.header-text button{
+    padding: 10px 30px;
+    border: 1px solid #1F2937;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.content{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-content: space-around;
+    justify-content: space-evenly;
+    height: 500px;
+    width: 80%;
+}
+.content-title{
+    margin: 0 auto;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+.card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    max-width: 200px;
+}
+.card img{
+    max-width: 100%;
+    height: auto;
+}
+.card-information{
+    border: 5px solid #3882f6;
+    border-radius: 10px;
+    padding: 50px;
+    width: 50px;
+    height: 50px;
 }
 .quote{
     background: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.quote-text{
+.quote-container{
+    width: 50%;
+    height: 400px;
     font-size: 36px;
     font-weight: lighter;
+    font-style: italic;
     color: #1F2937;
+}
+.quote-container span{
+    float: right;
+    font-size: 32px;
+    font-weight: bolder;
+}
+.callaction-container{
+    width: 80%;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .callaction{
     background: #3882f6;
+    margin: 20px auto;
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.callaction-text{
+    color: #fff;
+    margin: 50px;
+}
+.callaction-text strong{
+    font-size: 24px;
+}
+.callaction-text p{
+    font-size: 16px;
+}
+.callaction button{
+    background-color: #3882f6;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 25px;
 }
 .footer{
     background: #1F2937;
     color: #fff;
+    display: flex;
+    height: 75px;
+    justify-content: center;
+    align-items: center;
 }
 ul{
     list-style-type: none;
@@ -52,6 +155,7 @@ a{
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
+    margin: 0px 5px;
 }
 button{
     background: #3882f6;
